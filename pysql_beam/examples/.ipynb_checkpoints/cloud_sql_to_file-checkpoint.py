@@ -42,6 +42,7 @@ class SQLOptions(PipelineOptions):
         # parser.add_value_provider_argument('--username', dest='username', required=False)
         # parser.add_value_provider_argument('--password', dest='password', required=False)
         # parser.add_value_provider_argument('--output', dest='output', required=False, help="output file name")
+        #parser.add_value_provider_argument('--temp_location', dest='temp_location', default="gs://shapiro-dataflow-staging/tmp", help="staging location")
         parser.add_value_provider_argument('--host', dest='host', default="localhost")
         parser.add_value_provider_argument('--port', dest='port', default="3306")
         parser.add_value_provider_argument('--database', dest='database', default="dverma")
